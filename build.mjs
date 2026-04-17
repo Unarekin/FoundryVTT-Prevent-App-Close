@@ -128,7 +128,7 @@ const buildResults = await build({
     path.join(STYLE_PATH, "module.scss"),
   ],
   outdir: OUT_PATH,
-  sourcemap: __DEV__,
+  sourcemap: true,
   bundle: true,
   platform: "browser",
   minify: !__DEV__,
