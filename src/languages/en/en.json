@@ -1,1 +1,42 @@
-{}
+{
+  "PREVENTAPPCLOSE": {
+    "SETTINGS": {
+      "PREVENTDRAWING": {
+        "HINT": "When enabled, the drawing configuration application will not automatically close when saving.",
+        "LABEL": "Prevent Drawing Config From Closing"
+      },
+      "PREVENTITEM": {
+        "HINT": "When enabled, item sheets will not automatically close when saving.",
+        "LABEL": "Prevent Item Sheets From Closing"
+      },
+      "PREVENTLIGHT": {
+        "HINT": "When enabled, the ambient light configuration application will not automatically close when saving.",
+        "LABEL": "Prevent Ambient Light Config From Closing"
+      },
+      "PREVENTMACRO": {
+        "HINT": "When enabled, the macro configuration application will not automatically close when saving.",
+        "LABEL": "Prevent Macros From Closing"
+      },
+      "PREVENTPLAYLIST": {
+        "HINT": "When enabled, the playlist configuration application will not automatically close when saving.",
+        "LABEL": "Prevent Playlist Config From Closing"
+      },
+      "PREVENTSCENE": {
+        "HINT": "When enabled, the scene configuration application will not automatically close when saving.",
+        "LABEL": "Prevent Scene Config From Closing"
+      },
+      "PREVENTSOUND": {
+        "HINT": "When enabled, the ambient sound configuration application will not automatically close when saving.",
+        "LABEL": "Prevent Ambient Sound Config From Closing"
+      },
+      "PREVENTTILE": {
+        "HINT": "When enabled, the tile configuration application will not automatically close when saving.",
+        "LABEL": "Prevent Tile Config From Closing"
+      },
+      "PREVENTTOKEN": {
+        "HINT": "When enabled, the token and prototype token configuration applications will not automatically close when saving.",
+        "LABEL": "Prevent Token Config From Closing"
+      }
+    }
+  }
+}

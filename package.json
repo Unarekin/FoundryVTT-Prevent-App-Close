@@ -1,7 +1,7 @@
 {
-  "name": "foundryvtt-module-template",
+  "name": "foundryvtt-prevent-app-close",
   "version": "1.0.0",
-  "description": "",
+  "description": "A simple module to prevent applications from automatically closing on save.",
   "main": "dist/module.js",
   "scripts": {
     "build": "node build.mjs",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Unarekin/FoundryVTT-Module-Template.git"
+    "url": "git+https://github.com/Unarekin/FoundryVTT-Prevent-App-Close.git"
   },
   "keywords": [],
   "author": "",
@@ -19,9 +19,9 @@
   "type": "commonjs",
   "types": "./types/module.d.ts",
   "bugs": {
-    "url": "https://github.com/Unarekin/FoundryVTT-Module-Template/issues"
+    "url": "https://github.com/Unarekin/FoundryVTT-Prevent-App-Close/issues"
   },
-  "homepage": "https://github.com/Unarekin/FoundryVTT-Module-Template#readme",
+  "homepage": "https://github.com/Unarekin/FoundryVTT-Prevent-App-Close#readme",
   "devDependencies": {
     "@eslint/js": "^9.11.0",
     "@foundryvtt/foundryvtt-cli": "^1.1.0",

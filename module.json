@@ -1,13 +1,13 @@
 {
-  "id": "module-template",
-  "title": "Module Template",
-  "description": "A module template, this should have been changed",
+  "id": "prevent-app-close",
+  "title": "Prevent App Close",
+  "description": "A simple module to prevent applications from automatically closing on save.",
   "version": "#{VERSION}#",
   "library": "false",
   "compatibility": {
     "minimum": 13,
-    "verified": 13,
-    "maximum": 13
+    "verified": 14,
+    "maximum": 14
   },
   "authors": [
     {
