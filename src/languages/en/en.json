@@ -1,6 +1,10 @@
 {
   "PREVENTAPPCLOSE": {
     "SETTINGS": {
+      "PREVENTDRAWING": {
+        "HINT": "When enabled, the drawing configuration application will not automatically close when saving.",
+        "LABEL": "Prevent Drawing Config From Closing"
+      },
       "PREVENTITEM": {
         "HINT": "When enabled, item sheets will not automatically close when saving.",
         "LABEL": "Prevent Item Sheets From Closing"

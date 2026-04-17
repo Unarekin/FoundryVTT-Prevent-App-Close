@@ -1,9 +1,11 @@
 import { updateApps } from "./functions";
 
 export const SETTINGS = Object.freeze({
+  preventDrawingClose: "preventDrawingClose",
   preventItemClose: "preventItemClose",
   preventMacroClose: "preventMacroClose",
   preventSceneClose: "preventSceneClose",
+  preventNoteClose: "preventNoteClose",
   preventPlaylistClose: "preventPlaylistClose",
   preventTokenClose: "preventTokenClose",
   preventTileClose: "preventTileClose",
@@ -27,7 +29,7 @@ Hooks.once("ready", () => {
 
   game.settings.register(__MODULE_ID__, SETTINGS.preventAmbientSoundClose, {
     name: "PREVENTAPPCLOSE.SETTINGS.PREVENTSOUND.LABEL",
-    hint: "PREVENTAPPCLOSE.SETTINGS.PREVETNSOUND.HINT",
+    hint: "PREVENTAPPCLOSE.SETTINGS.PREVENTSOUND.HINT",
     type: Boolean,
     scope: "user",
     config: true,
@@ -35,6 +37,17 @@ Hooks.once("ready", () => {
     default: false,
     onChange() { updateApps(); }
   });
+
+  game.settings.register(__MODULE_ID__, SETTINGS.preventDrawingClose, {
+    name: "PREVENTAPPCLOSE.SETTINGS.PREVENTDRAWING.LABEL",
+    hint: "PREVENTAPPCLOSE.SETTINGS.PREVENTDRAWING.HINT",
+    type: Boolean,
+    scope: "user",
+    config: true,
+    requiresReload: false,
+    default: false,
+    onChange() { updateApps(); }
+  })
 
   game.settings.register(__MODULE_ID__, SETTINGS.preventItemClose, {
     name: "PREVENTAPPCLOSE.SETTINGS.PREVENTITEM.LABEL",
